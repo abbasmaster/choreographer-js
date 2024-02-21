@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+     
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display|Rubik">
     <link rel="stylesheet" href="index.css" >
 
@@ -16,28 +17,28 @@
 
     <div id="wrapper">
       <div id="letters">
-        <div class="c">c</div>
-        <div class="h">h</div>
-        <div class="o">o</div>
-        <div class="r">r</div>
-        <div class="e">e</div>
-        <div class="o">o</div>
-        <div class="g">g</div>
-        <div class="r">r</div>
         <div class="a">a</div>
-        <div class="p">p</div>
-        <div class="h">h</div>
+        <div class="b">b</div>
+        <div class="b">b</div>
+        <div class="a">a</div>
+        <div class="s">s</div>
+        <div class="space"> </div>
+        <div class="m">m</div>
+        <div class="a">a</div>
+        <div class="s">s</div>
+        <div class="t">t</div>
         <div class="e">e</div>
         <div class="r">r</div>
-        <div class="dash">-</div>
-        <div class="j">j</div>
-        <div class="s">s</div>
+        <div class=".">.</div>
+        <div class=".">.</div>
+        <div class=".">.</div>
+        <div class=".">.</div>
 
         <br />
         <div class="line"></div>
 
         <p class="description">
-          A simple library to take care of complex&nbsp;CSS&nbsp;animations.
+          Hello! welcome to my world.
         </p>
       </div>
       <div class="scroll-overlay"></div>
@@ -45,10 +46,10 @@
 
     <div class="links">
       <div class="quickstart">
-        $ npm install --save choreographer-js
+        contact me
       </div>
-      <a href="https://github.com/christinecha/choreographer-js">
-        <button class="reference">documentation</button>
+      <a href="https://github.com/abbasmaster">
+        <button class="reference">check out my github here.</button>
       </a>
     </div>
 
@@ -56,8 +57,15 @@
       <p>scroll down</p>
       <div class="down-arrow"></div>
     </div>
+    
+    <div text-color="green" data-aos="fade-in">i have come</div>
+    
 
-    <script src="./dist/choreographer.min.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+    <script src="./choreographer.min.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
